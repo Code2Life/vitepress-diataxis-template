@@ -24,7 +24,7 @@ The full-fledged tech doc template powered by VitePress & Diátaxis framework.
 
 ## Quick Start
 
-[](https://docs.code2life.top/guide/get-started)
+[Quick Start in 3 minutes](https://docs.code2life.top/guide/get-started)
 
 ## Reference
 
