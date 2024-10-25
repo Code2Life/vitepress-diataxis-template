@@ -22,6 +22,10 @@ The full-fledged tech doc template powered by VitePress & Diátaxis framework.
 - ✅ [Stoplight Elements](https://stoplight-site.webflow.io/open-source/elements) API doc generation
 - ✅ Deploy to [Cloudflare Pages](https://docs.code2life.top/guide/deployment) in 3 minutes
 
+## Quick Start
+
+[](https://docs.code2life.top/guide/get-started)
+
 ## Reference
 
 - https://diataxis.fr/
