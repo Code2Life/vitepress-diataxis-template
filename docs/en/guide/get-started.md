@@ -64,7 +64,19 @@ Most auto translation does not work well, you can use Cursor to translate markdo
 2. Input @translate-revise, and click Enter
 3. Cursor will auto translate the selected text, and you can review and save it
 
-### 4. Setup PostHog Analysis
+### 4. Setup Google and PostHog Analysis
+
+1. Register a [Google Analytics](https://analytics.google.com) account and get the measurement ID (G-XXXXXXXXXX)
+2. Add the measurement ID to docs/.vitepress/config.mts head part:
+
+```js
+head: [
+    ["script", { src: "https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" }],
+    ["script", {}, `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XXXXXXXXXX');`],
+],
+```
+
+Remember to update the public/robots.txt to match your own hostname.
 
 PostHog is an amazing SaaS product that covers almost all customer behavior analysis requirements.
 
