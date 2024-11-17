@@ -28,10 +28,10 @@ features:
     details: 基于 Github 讨论的 Giscus 评论和反馈
   - title: 自动翻译
     icon: 🌍
-    details: "内置Github Workflow自动翻译"
+    details: "内置 Cursor 翻译和文档审阅提示词"
   - title: 读者分析
     icon: 📊
-    details: 内置 PostHog 浏览记录分析
+    details: SEO 优化，内置 PostHog 浏览记录分析
   - title: Markdown 图表
     icon: 📝
     details: 内置 Mermaid 图表和 LaTeX

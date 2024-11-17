@@ -56,13 +56,13 @@ Goto **config.mts** file, change 'sitemap' & 'socialLinks' parts to your own dom
 </ClientOnly>
 ```
 
-### 3. Setup Auto Translate
+### 3. Setup Translate
 
-This template repo is integrated [GPT translate](https://github.com/3ru/gpt-translate), you can start using it in 3 steps.
+Most auto translation does not work well, you can use Cursor to translate markdown files. This repo has a built-in Prompt file for Cursor, you can start using it in 3 steps.
 
-1. Modify .github/workflows/auto-translate.yml config based on [this doc](https://g-t.vercel.app/docs/references/supported-model-provider)
-2. Enable write permission and add OPENAI_API_KEY based on [this doc](https://g-t.vercel.app/docs/overview/getting-started), the built-in example using [Perplexity AI](https://www.perplexity.ai/)
-3. Once commit to main, it will auto translate based on the workflow config
+1. Select a file or section, click Command+K or Command+L to open the Cursor chat
+2. Input @translate-revise, and click Enter
+3. Cursor will auto translate the selected text, and you can review and save it
 
 ### 4. Setup PostHog Analysis
 

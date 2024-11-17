@@ -29,10 +29,10 @@ features:
     details: Comment and feedback with Giscus which based on Github discussions
   - title: Auto translation
     icon: 🌍
-    details: "Out-of-box i18n with auto translate Github workflow"
+    details: "Out-of-box translation and doc review prompt with Cursor"
   - title: Viewer analysis
     icon: 📊
-    details: Analyze reader behavior with PostHog session recorder built-in
+    details: SEO optimized with built-in PostHog analytics to track reader behavior and session recordings
   - title: Markdown diagrams
     icon: 📝
     details: Mermaid diagram and LaTeX built-in
