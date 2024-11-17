@@ -62,6 +62,8 @@ export default defineConfig(
 
     head: [
       ["meta", { name: "color-scheme", content: "dark" }],
+      ["link", { rel: "icon", href: "/favicon.ico" }],
+      ['meta', { name: 'robots', content: 'index, follow' }],
       [
         "link",
         {
